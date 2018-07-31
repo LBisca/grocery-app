@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Grocery</string>
+    <string name="icon">Icon</string>
+    <string name="store_grocery">Store Grocery</string>
+</resources>
