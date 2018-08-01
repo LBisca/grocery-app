@@ -2,4 +2,6 @@
     <string name="app_name">Grocery</string>
     <string name="icon">Icon</string>
     <string name="store_grocery">Store Grocery</string>
+    <string name="iconddown">icondDown</string>
+    <string name="iconup">iconUp</string>
 </resources>
