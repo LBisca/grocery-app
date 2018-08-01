@@ -1,10 +1,20 @@
 package lucas.com.grocery.model
 
-import android.graphics.Bitmap
-import android.media.Image
+import lucas.com.grocery.R
 
-data class Product (
+data class Product(
         val name: String,
-        val description: String,
-        val quantity: Int
+        val image: Int
 )
+
+fun getList(): List<Product> {
+    val avaibleList = mutableListOf<Product>(
+            Product("Leite", (R.drawable.milk)),
+            Product("Papel Toalha", (R.drawable.paperroll)),
+            Product("Papel Higiênico", (R.drawable.toiletpaper)),
+            Product("Sabonete", (R.drawable.sabao)),
+            Product("Farinha", (R.drawable.farinha))
+    )
+
+    return avaibleList
+}

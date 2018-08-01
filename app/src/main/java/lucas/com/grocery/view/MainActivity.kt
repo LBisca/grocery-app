@@ -3,9 +3,12 @@ package lucas.com.grocery.view
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
+import kotlinx.android.synthetic.main.activity_add_item.*
 import lucas.com.grocery.R
+import lucas.com.grocery.model.getList
 
 class MainActivity : AppCompatActivity() {
 
